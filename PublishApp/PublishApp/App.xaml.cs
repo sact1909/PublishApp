@@ -8,6 +8,7 @@ using Microsoft.AppCenter.Crashes;
 using Xamarin.Essentials.Implementation;
 using Xamarin.Essentials.Interfaces;
 using Xamarin.Forms;
+using Microsoft.AppCenter.Distribute;
 
 namespace PublishApp
 {
@@ -35,11 +36,11 @@ namespace PublishApp
 
         protected override void OnStart()
         {
+            base.OnStart();
             AppCenter.Start("android=c25a14bc-de20-4feb-82b8-1ff7e2c05e3a;" +
                   "uwp={Your UWP App secret here};" +
                   "ios={Your iOS App secret here}",
-                  typeof(Analytics), typeof(Crashes));
-            base.OnStart();
+                  typeof(Analytics), typeof(Crashes), typeof(Distribute));
         }
     }
 }

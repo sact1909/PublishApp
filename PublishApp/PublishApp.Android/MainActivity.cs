@@ -2,6 +2,7 @@
 using Android.Content.PM;
 using Android.Content.Res;
 using Android.OS;
+using Microsoft.AppCenter.Distribute;
 using Prism;
 using Prism.Ioc;
 using System.Runtime.Remoting.Contexts;
@@ -20,6 +21,7 @@ namespace PublishApp.Droid
             base.OnCreate(savedInstanceState);
 
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            Distribute.SetEnabledForDebuggableBuild(true);
             LoadApplication(new App(new AndroidInitializer()));
         }
 

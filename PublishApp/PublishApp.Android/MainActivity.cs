@@ -21,7 +21,7 @@ namespace PublishApp.Droid
             base.OnCreate(savedInstanceState);
 
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
-            Distribute.SetEnabledForDebuggableBuild(true);
+            //Distribute.SetEnabledForDebuggableBuild(true);
             LoadApplication(new App(new AndroidInitializer()));
         }
 

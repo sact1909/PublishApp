@@ -39,7 +39,8 @@ namespace PublishApp
             base.OnStart();
             AppCenter.Start("android=c25a14bc-de20-4feb-82b8-1ff7e2c05e3a;" +
                   "uwp={Your UWP App secret here};" +
-                  "ios={Your iOS App secret here}",typeof(Distribute));
+                  "ios={Your iOS App secret here}",
+                  typeof(Analytics), typeof(Crashes), typeof(Distribute));
         }
     }
 }

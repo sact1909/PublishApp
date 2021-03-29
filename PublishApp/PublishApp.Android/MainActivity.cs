@@ -17,7 +17,7 @@ namespace PublishApp.Droid
         {
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
-            //Distribute.SetEnabledForDebuggableBuild(true);
+            Distribute.SetEnabledForDebuggableBuild(true);
             base.OnCreate(savedInstanceState);
 
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);

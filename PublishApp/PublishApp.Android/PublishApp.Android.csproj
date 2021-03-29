@@ -40,10 +40,14 @@
     <AndroidDexTool>d8</AndroidDexTool>
     <AndroidUseAapt2>true</AndroidUseAapt2>
     <AndroidKeyStore>true</AndroidKeyStore>
-    <AndroidSigningKeyStore>C:\Users\steve\AppData\Local\Xamarin\Mono for Android\Keystore\checo\checo.keystore</AndroidSigningKeyStore>
+    <AndroidSigningKeyStore>C:\Users\steve\AppData\Local\Xamarin\Mono for Android\Keystore\PublishApp\PublishApp.keystore</AndroidSigningKeyStore>
     <AndroidSigningStorePass>stevencheco1909</AndroidSigningStorePass>
-    <AndroidSigningKeyAlias>checo</AndroidSigningKeyAlias>
+    <AndroidSigningKeyAlias>PublishApp</AndroidSigningKeyAlias>
     <AndroidSigningKeyPass>stevencheco1909</AndroidSigningKeyPass>
+    <AotAssemblies>false</AotAssemblies>
+    <EnableLLVM>false</EnableLLVM>
+    <AndroidEnableProfiledAot>false</AndroidEnableProfiledAot>
+    <BundleAssemblies>false</BundleAssemblies>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -62,10 +66,11 @@
     <AndroidEnableProfiledAot>false</AndroidEnableProfiledAot>
     <BundleAssemblies>false</BundleAssemblies>
     <AndroidKeyStore>true</AndroidKeyStore>
-    <AndroidSigningKeyStore>C:\Users\steve\AppData\Local\Xamarin\Mono for Android\Keystore\checo\checo.keystore</AndroidSigningKeyStore>
+    <AndroidSigningKeyStore>C:\Users\steve\AppData\Local\Xamarin\Mono for Android\Keystore\PublishApp\PublishApp.keystore</AndroidSigningKeyStore>
     <AndroidSigningStorePass>stevencheco1909</AndroidSigningStorePass>
-    <AndroidSigningKeyAlias>checo</AndroidSigningKeyAlias>
+    <AndroidSigningKeyAlias>PublishApp</AndroidSigningKeyAlias>
     <AndroidSigningKeyPass>stevencheco1909</AndroidSigningKeyPass>
+    <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />

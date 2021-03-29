@@ -56,7 +56,11 @@
     <EnableLLVM>false</EnableLLVM>
     <AndroidEnableProfiledAot>false</AndroidEnableProfiledAot>
     <BundleAssemblies>false</BundleAssemblies>
-    <AndroidKeyStore>false</AndroidKeyStore>
+    <AndroidKeyStore>true</AndroidKeyStore>
+    <AndroidSigningKeyStore>C:\Users\steve\AppData\Local\Xamarin\Mono for Android\Keystore\checo\checo.keystore</AndroidSigningKeyStore>
+    <AndroidSigningStorePass>stevencheco1909</AndroidSigningStorePass>
+    <AndroidSigningKeyAlias>checo</AndroidSigningKeyAlias>
+    <AndroidSigningKeyPass>stevencheco1909</AndroidSigningKeyPass>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />

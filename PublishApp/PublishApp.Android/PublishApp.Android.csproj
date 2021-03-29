@@ -39,6 +39,11 @@
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidDexTool>d8</AndroidDexTool>
     <AndroidUseAapt2>true</AndroidUseAapt2>
+    <AndroidKeyStore>true</AndroidKeyStore>
+    <AndroidSigningKeyStore>C:\Users\steve\AppData\Local\Xamarin\Mono for Android\Keystore\checo\checo.keystore</AndroidSigningKeyStore>
+    <AndroidSigningStorePass>stevencheco1909</AndroidSigningStorePass>
+    <AndroidSigningKeyAlias>checo</AndroidSigningKeyAlias>
+    <AndroidSigningKeyPass>stevencheco1909</AndroidSigningKeyPass>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
